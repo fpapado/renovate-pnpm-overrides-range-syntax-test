@@ -1,0 +1,25 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  '@luma.gl/constants@>8.2.0': 8.2.0
+
+importers:
+
+  .:
+    dependencies:
+      '@luma.gl/constants':
+        specifier: 8.2.0
+        version: 8.2.0
+
+packages:
+
+  '@luma.gl/constants@8.2.0':
+    resolution: {integrity: sha512-ah2PbzTlSGjRIq0YQQcTDAbGdgiRhtE41tvVQGF3BDtARrBuS+ElsPsJbB7sm+wvfjm1mkoLawozrF89pgyY9A==}
+
+snapshots:
+
+  '@luma.gl/constants@8.2.0': {}
