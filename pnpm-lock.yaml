@@ -8,7 +8,7 @@ overrides:
   '@luma.gl/constants@>8.2.0': 8.2.0
   consolidate: npm:@ladjs/consolidate@1.0.4
   express>cookie: 1.0.2
-  primus>nanoid: 3.3.8
+  primus>nanoid: 5.0.9
 
 importers:
 
@@ -438,9 +438,9 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.8:
-    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+  nanoid@5.0.9:
+    resolution: {integrity: sha512-Aooyr6MXU6HpvvWXKoVoXwKMs/KyVakWwg7xQfv5/S/RIgJMy0Ifa45H9qqYy7pTCszrHzP21Uk4PZq2HpEM8Q==}
+    engines: {node: ^18 || >=20}
     hasBin: true
 
   negotiator@0.6.3:
@@ -843,7 +843,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.8: {}
+  nanoid@5.0.9: {}
 
   negotiator@0.6.3: {}
 
@@ -870,7 +870,7 @@ snapshots:
       eventemitter3: 5.0.1
       forwarded-for: 1.1.0
       fusing: 1.0.0
-      nanoid: 3.3.8
+      nanoid: 5.0.9
       setheader: 1.0.2
       ultron: 1.1.1
 

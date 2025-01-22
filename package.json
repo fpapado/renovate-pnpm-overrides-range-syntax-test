@@ -21,7 +21,7 @@
       "@luma.gl/constants@>8.2.0": "8.2.0",
       "consolidate": "npm:@ladjs/consolidate@1.0.4",
       "express>cookie": "1.0.2",
-      "primus>nanoid": "3.3.8"
+      "primus>nanoid": "5.0.9"
     }
   }
 }
